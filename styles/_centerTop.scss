@@ -1,0 +1,80 @@
+.center{
+    
+    .centerTop{
+       
+        width: 100%;
+        height: 396px;
+        background-color: #EDF7FA;
+       
+        .up{
+           height: 67px;
+           width: 100%;
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+            .upr{
+                font-size: 22px;
+                font-weight: 400;
+                line-height: 60px;
+                margin-left:148px ;
+                margin-top: 7px;
+                color: #21243D;
+            }
+            .uplr{
+                
+                font-weight: 400;
+                line-height: 24px;
+                color: #00A8CC;
+                margin-right: 148px;
+                cursor: pointer;
+            }
+        }
+        .down{
+            display: flex;
+            align-items: center;
+            margin-top: 2px;
+            .downLeft{
+                margin: 0px 20px 32px 148px;
+                width: 418px;
+                height: 295px;
+                display: flex;
+                flex-direction: column;
+                background-color: #FFFFFF;
+                :first-child{
+                    p{
+                        font-size: 26px;
+                        font-weight: 700;
+                        line-height: 39px;
+                        padding: 24px 21px 17px 23px;
+                    }
+                }
+                :nth-child(2){
+                    display: flex;
+                    align-items: center;
+                   
+                    padding: 0px 21px 0px 23px;
+                    p{
+                        margin-right: 26px ;
+                    }
+
+                }
+                :last-child{
+                    padding: 11px 27px 7px 23px;
+                    font-weight: 400;
+                    line-height: 23.5px;
+                    color: #21243D;
+                }
+            }
+            .downRight{
+                @extend .downLeft;
+                margin: 0px 148px 32px 20px;
+
+            }
+            
+
+
+
+        }
+        
+    }
+}

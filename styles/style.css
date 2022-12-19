@@ -40,7 +40,7 @@ body {
 .mainHeader {
   display: flex;
   width: 100%;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .mainHeader .mainRight img {
   margin-right: 149px;
@@ -80,16 +80,172 @@ body {
 }
 
 .center .centerTop {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   width: 100%;
   height: 396px;
   background-color: #EDF7FA;
 }
-.center .centerTop :first-child p {
+.center .centerTop .up {
+  height: 67px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.center .centerTop .up .upr {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 60px;
+  margin-left: 148px;
+  margin-top: 7px;
+  color: #21243D;
+}
+.center .centerTop .up .uplr {
+  font-weight: 400;
+  line-height: 24px;
+  color: #00A8CC;
+  margin-right: 148px;
+  cursor: pointer;
+}
+.center .centerTop .down {
+  display: flex;
+  align-items: center;
+  margin-top: 2px;
+}
+.center .centerTop .down .downLeft, .center .centerTop .down .downRight {
+  margin: 0px 20px 32px 148px;
+  width: 418px;
+  height: 295px;
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+}
+.center .centerTop .down .downLeft :first-child p, .center .centerTop .down .downRight :first-child p {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 39px;
+  padding: 24px 21px 17px 23px;
+}
+.center .centerTop .down .downLeft :nth-child(2), .center .centerTop .down .downRight :nth-child(2) {
+  display: flex;
+  align-items: center;
+  padding: 0px 21px 0px 23px;
+}
+.center .centerTop .down .downLeft :nth-child(2) p, .center .centerTop .down .downRight :nth-child(2) p {
+  margin-right: 26px;
+}
+.center .centerTop .down .downLeft :last-child, .center .centerTop .down .downRight :last-child {
+  padding: 11px 27px 7px 23px;
+  font-weight: 400;
+  line-height: 23.5px;
+  color: #21243D;
+}
+.center .centerTop .down .downRight {
+  margin: 0px 148px 32px 20px;
+}
+
+.centerMain hr {
+  border-top: 1px solid #E0E0E0;
+  margin: 0 auto;
+  width: calc(100% - 298px);
+}
+.centerMain :first-child {
+  width: 152px;
+  height: 60px;
+}
+.centerMain :first-child p {
+  margin: 15px 0px 22px 148px;
+  color: #21243D;
   font-size: 22px;
   line-height: 60px;
-  font-weight: 400px;
+  font-weight: 400;
+}
+.centerMain .card, .centerMain .card2, .centerMain .card3 {
+  width: 100%;
+  display: flex;
+  margin-bottom: 15px;
+}
+.centerMain .card :first-child, .centerMain .card2 :first-child, .centerMain .card3 :first-child {
+  margin-left: 146px;
+  width: 246px;
+  height: 180px;
+  border-radius: 6px;
+}
+.centerMain .card :last-child, .centerMain .card2 :last-child, .centerMain .card3 :last-child {
+  width: calc(100% - 246px);
+}
+.centerMain .card :last-child :nth-child(1), .centerMain .card2 :last-child :nth-child(1), .centerMain .card3 :last-child :nth-child(1) {
+  margin-left: 0;
+  width: 305px;
+  height: 44px;
+}
+.centerMain .card :last-child :nth-child(1) p, .centerMain .card2 :last-child :nth-child(1) p, .centerMain .card3 :last-child :nth-child(1) p {
+  margin-top: -11px;
+  margin-left: 18px;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 44px;
+  color: #21243D;
+}
+.centerMain .card :last-child :nth-child(2) .badge, .centerMain .card2 :last-child :nth-child(2) .badge, .centerMain .card3 :last-child :nth-child(2) .badge {
+  width: 62px;
+  height: 25px;
+  background-color: #142850;
+  border-radius: 16px;
+  color: #FFFFFF;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: 900;
   text-align: center;
+  margin-top: 20px;
+  margin-left: 18px;
+  display: inline-block;
+}
+.centerMain .card :last-child :nth-child(2) :last-child, .centerMain .card2 :last-child :nth-child(2) :last-child, .centerMain .card3 :last-child :nth-child(2) :last-child {
+  display: inline-block;
+  margin-left: 26px;
+  margin-top: 16px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29px;
+  color: #8695A4;
+}
+.centerMain .card :last-child :nth-child(3), .centerMain .card2 :last-child :nth-child(3), .centerMain .card3 :last-child :nth-child(3) {
+  width: 594px;
+  height: 93px;
+  margin-top: 17px;
+  margin-left: 18px;
+}
+.centerMain .card :last-child :nth-child(3) p, .centerMain .card2 :last-child :nth-child(3) p, .centerMain .card3 :last-child :nth-child(3) p {
+  line-height: 23.5px;
+  width: 100%;
+}
+.centerMain .card2, .centerMain .card3 {
+  margin-top: 31px;
+}
+.centerMain .card2 :last-child :nth-child(1), .centerMain .card3 :last-child :nth-child(1) {
+  width: 365px;
+}
+
+.footer {
+  background-color: #FFFFFF;
+  width: 100%;
+  height: 182px;
+  margin-top: 83px;
+}
+.footer .footerContainer {
+  max-width: 1152px;
+  text-align: center;
+}
+.footer .footerContainer .icons {
+  margin-top: 134px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .footerContainer .icons :nth-child(1) {
+  margin: 0px 17px;
+}
+.footer .footerContainer p {
+  margin-top: 26px;
 }/*# sourceMappingURL=style.css.map */
