@@ -1,0 +1,86 @@
+@import './works';
+
+.workDetail{
+    .txtWorkDetail{
+        width: 506px;
+        height: 100px;
+        margin: 148px 411px 30px 235px;
+        font-size: 34px;
+        line-height: 50px;
+        font-weight: 700;
+
+    }
+    :nth-child(2){
+        display: flex;
+        
+        align-items: center;
+        :nth-child(2){
+            width: 374px;
+            height: 34px;
+            font-size: 20px;
+            line-height: 29.38px;
+            font-weight: 400;
+            margin-top: 30px;
+        }
+    }
+    .badge{
+        width: 62px;
+        height: 25px;
+        background-color:#FF7C7C ;
+        border-radius: 16px;
+        color: #FFFFFF;
+        line-height: 25px;
+        font-size: 18px;
+        font-weight: 900;
+        text-align: center;
+        margin-top: 30px;
+        margin-left: 249px;
+        margin-right: 27px;
+        display: inline-block;
+    };
+    :nth-child(3){
+        width: 681px;
+        height: 44px;
+        margin: 23px auto;
+
+        
+    };
+    :nth-child(4){
+        img{
+            margin: 46px 236px 54px 235px;
+        }
+    };
+    :nth-child(5){
+        width: 506px;
+        height: 45px;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 60px;
+        margin: 0 407px 0 239px;
+    };
+    :nth-child(6){
+        width: 506px;
+        height: 82px;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 60px;
+        margin: 0 407px 0 239px;
+    };
+    :nth-child(7){
+        width: 677px;
+        height: 48px;
+        margin: -17px 236px 30px 239px;
+    }
+    :nth-child(8){
+        :first-child{
+            width: 681px;
+        height: 460px;
+        margin: 0px 236px 27px 235px; 
+        };
+        :last-child{
+            width: 681px;
+            height: 460px;
+            margin: 0px 236px 27px 235px; 
+        }
+    }
+}
