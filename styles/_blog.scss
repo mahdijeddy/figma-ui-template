@@ -1,0 +1,64 @@
+.Blog{
+    color: #21243D;
+    hr{
+        width: calc(100% - 470px);
+        margin: 0px auto;
+        border: 1px solid #E0E0E0;
+    }
+    
+    .txtBlog{
+        width: 156px;
+        height: 54px;
+        margin-top: 160px ;
+        margin-left: 235px ;
+        p{
+            font-size: 44px;
+        font-weight: 700;
+        line-height: 60px;
+    
+        }
+    }
+    .cardBlog{
+        margin-top: 55px;
+        :first-child{
+            width: 682px;
+            height: 33px;
+            font-size: 30px;
+            line-height: 44px;
+            font-weight: 500;
+            margin: 55px 235px 16px 235px
+        };
+        :nth-child(2){
+            :nth-child(1){
+                display: inline;
+                font-size: 20px;
+                line-height: 29.4px;
+                font-weight: 400;
+                margin-top: 0;
+                margin-right: 20px
+            
+            };
+            :nth-child(2){
+                width: 374px;
+                height: 34px;
+                display: inline;
+                color:#8695A4 ;
+                margin-top: 20px;
+                margin-bottom: 15px;
+                font-size: 20px;
+                line-height: 29.4px;
+                font-weight: 400;
+            };
+            
+        }
+        :nth-child(3){
+            width: 682px;
+            height: 43px;
+            
+            margin: 15px 235px 29px 235px;
+    
+        }
+    }
+    
+  
+}

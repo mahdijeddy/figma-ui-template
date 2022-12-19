@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&family=Montserrat&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -7,10 +11,7 @@ body {
   background-color: #FFFFFF;
   max-width: 1152px;
   margin: 0 auto;
-}
-
-.container {
-  padding: 0px 148px;
+  font-family: "Heebo", sans-serif;
 }
 
 .header {
@@ -66,6 +67,7 @@ body {
   background-color: #FF6464;
   width: 208px;
   height: 47px;
+  color: #FFFFFF;
   border-radius: 2px;
   margin-left: 148px;
   border: none;
@@ -248,4 +250,63 @@ body {
 }
 .footer .footerContainer p {
   margin-top: 26px;
+}
+
+.Blog {
+  color: #21243D;
+}
+.Blog hr {
+  width: calc(100% - 470px);
+  margin: 0px auto;
+  border: 1px solid #E0E0E0;
+}
+.Blog .txtBlog {
+  width: 156px;
+  height: 54px;
+  margin-top: 160px;
+  margin-left: 235px;
+}
+.Blog .txtBlog p {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 60px;
+}
+.Blog .cardBlog {
+  margin-top: 55px;
+}
+.Blog .cardBlog :first-child {
+  width: 682px;
+  height: 33px;
+  font-size: 30px;
+  line-height: 44px;
+  font-weight: 500;
+  margin: 55px 235px 16px 235px;
+}
+.Blog .cardBlog :nth-child(2) :nth-child(1) {
+  display: inline;
+  font-size: 20px;
+  line-height: 29.4px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-right: 20px;
+}
+.Blog .cardBlog :nth-child(2) :nth-child(2) {
+  width: 374px;
+  height: 34px;
+  display: inline;
+  color: #8695A4;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  line-height: 29.4px;
+  font-weight: 400;
+}
+.Blog .cardBlog :nth-child(3) {
+  width: 682px;
+  height: 43px;
+  margin: 15px 235px 29px 235px;
+}
+
+.container {
+  padding: 0px 148px;
 }/*# sourceMappingURL=style.css.map */
